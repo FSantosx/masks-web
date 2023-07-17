@@ -11,6 +11,8 @@ const mascaraTel = (value) => {
     return value
 }
 
+
+// Com base no orgão emissor SSP-SP
 const handleMaskCpf = (event) => {
     let input = event.target
     input.value = mascaraCpf(input.value)
